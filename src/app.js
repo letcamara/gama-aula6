@@ -30,7 +30,7 @@ const router = async() => {
 }
 
 // Observa as mudancas na hash
-window.addEventListener('haschange', router)
+window.addEventListener('hashchange', router)
 
 //Observar o carregamento da página
 window.addEventListener('load', router)
