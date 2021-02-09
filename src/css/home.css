@@ -14,7 +14,6 @@
 body {
   -webkit-font-smoothing: antialiased !important;
   font-family: 'Raleway', sans-serif;
-  background-color: var(--primary-color) ;
 }
 
 h2 {
@@ -138,6 +137,10 @@ button {
   transition: 1s;
 }
 
+.loader {
+  text-align: center;
+}
+
 button:hover i {
   animation: anima-icon .5s forwards;
 }
@@ -218,8 +221,4 @@ button:hover i {
   .content-bg--white .content-text--local {
     padding: 1em 1.5em 0 1.5em;
   }
-}
-
-.loader {
-  text-align: center;
 }

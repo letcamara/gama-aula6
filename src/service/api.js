@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from '../../node_modules/axios'
 
 const api = axios.create({
-  baseURL: 'https://gama-bankline-desbugados.herokuapp.com/'
+  baseURL: 'http://localhost:8080/'
 })
 
-export default axios
+export default api
